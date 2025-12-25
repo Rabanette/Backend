@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    "target": "ES2020",
+    "sourceMap": true,
+    "outDir": "./dist",
+
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+
+    "incremental": true,
+    "baseUrl": "./"
+  },
+  "include": ["src"]
+}
